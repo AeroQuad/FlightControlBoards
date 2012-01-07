@@ -1,0 +1,19 @@
+[Eagle]
+Version="05 11 00"
+Platform="Mac OS X"
+Serial="6F13ACE5CA-LSR-WLM-1CS"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+
+[Win_1]
+Type="Control Panel"
+Loc="422 250 1021 649"
+State=2
+Number=0
+
+[Desktop]
+Screen="1440 900"
+Window="Win_1"
