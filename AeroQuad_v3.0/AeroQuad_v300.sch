@@ -6326,98 +6326,6 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="CaranchoEngineering">
-<packages>
-<package name="DIL16">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-1.016" x2="-10.16" y2="1.016" width="0.2032" layer="21" curve="180"/>
-<wire x1="-10.16" y1="2.921" x2="-9.906" y2="2.921" width="0.2032" layer="21"/>
-<wire x1="10.16" y1="2.921" x2="9.906" y2="2.921" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="-9.906" y2="-2.921" width="0.2032" layer="21"/>
-<wire x1="10.16" y1="-2.921" x2="9.906" y2="-2.921" width="0.2032" layer="21"/>
-<pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.08" y="0" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ULN2003A">
-<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="-15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="11.43" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P$1" x="-5.08" y="7.62" visible="pad" length="short" direction="in"/>
-<pin name="P$2" x="-5.08" y="5.08" visible="pad" length="short" direction="in"/>
-<pin name="P$3" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="P$4" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
-<pin name="P$5" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="P$6" x="-5.08" y="-5.08" visible="pad" length="short" direction="in"/>
-<pin name="P$7" x="-5.08" y="-7.62" visible="pad" length="short" direction="in"/>
-<pin name="P$8" x="-5.08" y="-10.16" visible="pad" length="short"/>
-<pin name="P$9" x="5.08" y="-10.16" visible="pad" length="short" rot="R180"/>
-<pin name="P$10" x="5.08" y="-7.62" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$11" x="5.08" y="-5.08" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$12" x="5.08" y="-2.54" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$13" x="5.08" y="0" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$14" x="5.08" y="2.54" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$15" x="5.08" y="5.08" visible="pad" length="short" direction="in" rot="R180"/>
-<pin name="P$16" x="5.08" y="7.62" visible="pad" length="short" direction="in" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ULN2003">
-<description>ULN2003A is a high voltage, high current darlington array each containing seven open collector darlington pairs with common emitters.</description>
-<gates>
-<gate name="G$1" symbol="ULN2003A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="A" package="DIL16">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$10" pad="10"/>
-<connect gate="G$1" pin="P$11" pad="11"/>
-<connect gate="G$1" pin="P$12" pad="12"/>
-<connect gate="G$1" pin="P$13" pad="13"/>
-<connect gate="G$1" pin="P$14" pad="14"/>
-<connect gate="G$1" pin="P$15" pad="15"/>
-<connect gate="G$1" pin="P$16" pad="16"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="P$4" pad="4"/>
-<connect gate="G$1" pin="P$5" pad="5"/>
-<connect gate="G$1" pin="P$6" pad="6"/>
-<connect gate="G$1" pin="P$7" pad="7"/>
-<connect gate="G$1" pin="P$8" pad="8"/>
-<connect gate="G$1" pin="P$9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Testing">
 <packages>
 <package name="QFN-24-4MM2">
@@ -7184,11 +7092,7 @@ type 0309, grid 2.5 mm</description>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="LED1" library="SparkFun" deviceset="LED" device="5MM"/>
 <part name="ESC_SIGNAL" library="SparkFun" deviceset="M08" device="LOCK" value="M11LOCK"/>
-<part name="LED_PWR" library="SparkFun" deviceset="M07" device="LOCK"/>
-<part name="LED_GND" library="SparkFun" deviceset="M07" device="LOCK"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND6" library="SparkFun" deviceset="GND" device=""/>
-<part name="LED" library="CaranchoEngineering" deviceset="ULN2003" device="A"/>
 <part name="HMC5843" library="SparkFun" deviceset="M04" device="LOCK"/>
 <part name="ESC_PWR" library="SparkFun" deviceset="M08" device="LOCK" value="M11LOCK"/>
 <part name="ESC_GND" library="SparkFun" deviceset="M08" device="LOCK" value="M11LOCK"/>
@@ -7206,8 +7110,6 @@ type 0309, grid 2.5 mm</description>
 <part name="GPS" library="SparkFun" deviceset="M04" device="LOCK"/>
 <part name="LEVELSHIFTIN" library="SparkFun" deviceset="M06" device="LOCK"/>
 <part name="LEVELSHIFTOUT" library="SparkFun" deviceset="M06" device="LOCK"/>
-<part name="GYRO" library="SparkFun" deviceset="M07" device="LOCK" value="ITG3200"/>
-<part name="ACCEL" library="SparkFun" deviceset="M08" device="LOCK" value="BMA180"/>
 <part name="ANALOG_INPUT" library="SparkFun" deviceset="M07" device=""/>
 <part name="RECEIVER_INPUT" library="SparkFun" deviceset="M08" device="LOCK"/>
 <part name="BARO" library="SparkFun" deviceset="M06" device="LOCK" value="BMP085"/>
@@ -7393,17 +7295,7 @@ type 0309, grid 2.5 mm</description>
 <instance part="ESC_SIGNAL" gate="G$1" x="88.9" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="97.79" y="124.714" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="LED_PWR" gate="G$1" x="157.48" y="55.88" rot="R180"/>
-<instance part="LED_GND" gate="G$1" x="195.58" y="55.88" smashed="yes" rot="R180">
-<attribute name="VALUE" x="200.66" y="66.04" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND5" gate="1" x="106.68" y="81.28"/>
-<instance part="GND6" gate="1" x="172.72" y="40.64" smashed="yes">
-<attribute name="VALUE" x="170.18" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="LED" gate="G$1" x="182.88" y="53.34" smashed="yes">
-<attribute name="NAME" x="180.34" y="38.1" size="1.778" layer="95"/>
-</instance>
 <instance part="HMC5843" gate="G$1" x="190.5" y="172.72" rot="MR180"/>
 <instance part="ESC_PWR" gate="G$1" x="220.98" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="228.346" y="74.93" size="1.778" layer="95" rot="R180"/>
@@ -7427,8 +7319,6 @@ type 0309, grid 2.5 mm</description>
 <instance part="GPS" gate="G$1" x="215.9" y="160.02" rot="MR180"/>
 <instance part="LEVELSHIFTIN" gate="G$1" x="116.84" y="15.24" rot="R180"/>
 <instance part="LEVELSHIFTOUT" gate="G$1" x="129.54" y="15.24" rot="MR180"/>
-<instance part="GYRO" gate="G$1" x="68.58" y="17.78" rot="MR180"/>
-<instance part="ACCEL" gate="G$1" x="91.44" y="40.64" rot="MR180"/>
 <instance part="ANALOG_INPUT" gate="G$1" x="68.58" y="48.26" rot="R180"/>
 <instance part="RECEIVER_INPUT" gate="G$1" x="53.34" y="17.78" rot="R180"/>
 <instance part="BARO" gate="G$1" x="124.46" y="40.64" rot="MR180"/>
@@ -7534,11 +7424,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="195.58" y1="175.26" x2="203.2" y2="175.26" width="0.2032" layer="91"/>
 <label x="195.58" y="175.26" size="1.778" layer="95"/>
 <pinref part="HMC5843" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="172.72" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="LED" gate="G$1" pin="P$8"/>
-<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="68.58" x2="231.14" y2="68.58" width="0.2032" layer="91"/>
@@ -7719,26 +7604,6 @@ type 0309, grid 2.5 mm</description>
 <pinref part="3V_I2C_2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<label x="73.66" y="17.78" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
-<label x="73.66" y="12.7" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="5"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
-<label x="96.52" y="45.72" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="6"/>
-</segment>
-<segment>
 <wire x1="129.54" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="129.54" y="43.18" size="1.778" layer="95"/>
 <pinref part="BARO" gate="G$1" pin="2"/>
@@ -7916,31 +7781,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="157.48" y1="76.2" x2="165.1" y2="76.2" width="0.2032" layer="91"/>
 <label x="157.48" y="76.2" size="1.778" layer="95"/>
 <pinref part="3V_I2C_2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
-<label x="73.66" y="10.16" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="6"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
-<label x="73.66" y="7.62" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="7"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="96.52" y="48.26" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="30.48" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="8"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
@@ -8177,11 +8017,6 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="LED1" class="0">
 <segment>
-<wire x1="177.8" y1="45.72" x2="167.64" y2="45.72" width="0.2032" layer="91"/>
-<label x="167.64" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$7"/>
-</segment>
-<segment>
 <wire x1="104.14" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
 <label x="114.3" y="149.86" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="22"/>
@@ -8189,11 +8024,6 @@ type 0309, grid 2.5 mm</description>
 </segment>
 </net>
 <net name="LED2" class="0">
-<segment>
-<wire x1="177.8" y1="48.26" x2="167.64" y2="48.26" width="0.2032" layer="91"/>
-<label x="167.64" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$6"/>
-</segment>
 <segment>
 <wire x1="96.52" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
 <label x="76.2" y="147.32" size="1.778" layer="95"/>
@@ -8203,11 +8033,6 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="LED3" class="0">
 <segment>
-<wire x1="177.8" y1="50.8" x2="167.64" y2="50.8" width="0.2032" layer="91"/>
-<label x="167.64" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$5"/>
-</segment>
-<segment>
 <wire x1="104.14" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <label x="114.3" y="147.32" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="24"/>
@@ -8215,11 +8040,6 @@ type 0309, grid 2.5 mm</description>
 </segment>
 </net>
 <net name="LED4" class="0">
-<segment>
-<wire x1="177.8" y1="53.34" x2="167.64" y2="53.34" width="0.2032" layer="91"/>
-<label x="167.64" y="53.34" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$4"/>
-</segment>
 <segment>
 <wire x1="96.52" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.778" layer="95"/>
@@ -8229,11 +8049,6 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="LED5" class="0">
 <segment>
-<wire x1="177.8" y1="55.88" x2="167.64" y2="55.88" width="0.2032" layer="91"/>
-<label x="167.64" y="55.88" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$3"/>
-</segment>
-<segment>
 <wire x1="104.14" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <label x="114.3" y="144.78" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="26"/>
@@ -8242,11 +8057,6 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="LED6" class="0">
 <segment>
-<wire x1="177.8" y1="58.42" x2="167.64" y2="58.42" width="0.2032" layer="91"/>
-<label x="167.64" y="58.42" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$2"/>
-</segment>
-<segment>
 <wire x1="96.52" y1="142.24" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 <label x="76.2" y="142.24" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="27"/>
@@ -8254,11 +8064,6 @@ type 0309, grid 2.5 mm</description>
 </segment>
 </net>
 <net name="LED7" class="0">
-<segment>
-<wire x1="177.8" y1="60.96" x2="167.64" y2="60.96" width="0.2032" layer="91"/>
-<label x="167.64" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED" gate="G$1" pin="P$1"/>
-</segment>
 <segment>
 <wire x1="104.14" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <label x="114.3" y="142.24" size="1.778" layer="95"/>
@@ -8284,36 +8089,6 @@ type 0309, grid 2.5 mm</description>
 <label x="35.56" y="165.1" size="1.778" layer="95"/>
 <pinref part="POWER1" gate="G$1" pin="6"/>
 <pinref part="POWER2" gate="G$1" pin="6"/>
-</segment>
-<segment>
-<wire x1="152.4" y1="60.96" x2="149.86" y2="60.96" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="60.96" x2="142.24" y2="60.96" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="58.42" x2="149.86" y2="60.96" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="55.88" x2="149.86" y2="55.88" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="55.88" x2="149.86" y2="58.42" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="53.34" x2="149.86" y2="53.34" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="53.34" x2="149.86" y2="55.88" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="50.8" x2="149.86" y2="53.34" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="48.26" x2="149.86" y2="48.26" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="48.26" x2="149.86" y2="50.8" width="0.2032" layer="91"/>
-<wire x1="152.4" y1="45.72" x2="149.86" y2="45.72" width="0.2032" layer="91"/>
-<wire x1="149.86" y1="45.72" x2="149.86" y2="48.26" width="0.2032" layer="91"/>
-<junction x="149.86" y="60.96"/>
-<junction x="149.86" y="58.42"/>
-<junction x="149.86" y="55.88"/>
-<junction x="149.86" y="53.34"/>
-<junction x="149.86" y="50.8"/>
-<junction x="149.86" y="48.26"/>
-<label x="147.32" y="63.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="LED_PWR" gate="G$1" pin="1"/>
-<pinref part="LED_PWR" gate="G$1" pin="2"/>
-<pinref part="LED_PWR" gate="G$1" pin="3"/>
-<pinref part="LED_PWR" gate="G$1" pin="4"/>
-<pinref part="LED_PWR" gate="G$1" pin="5"/>
-<pinref part="LED_PWR" gate="G$1" pin="6"/>
-<pinref part="LED_PWR" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="119.38" x2="101.6" y2="124.46" width="0.2032" layer="91"/>
@@ -8353,55 +8128,6 @@ type 0309, grid 2.5 mm</description>
 <label x="33.02" y="88.9" size="1.778" layer="95"/>
 <pinref part="PWM_HIGH1" gate="G$1" pin="6"/>
 <pinref part="PWM_HIGH2" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="187.96" y1="45.72" x2="190.5" y2="45.72" width="0.2032" layer="91"/>
-<pinref part="LED" gate="G$1" pin="P$10"/>
-<pinref part="LED_GND" gate="G$1" pin="7"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="190.5" y1="48.26" x2="187.96" y2="48.26" width="0.2032" layer="91"/>
-<pinref part="LED_GND" gate="G$1" pin="6"/>
-<pinref part="LED" gate="G$1" pin="P$11"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="187.96" y1="50.8" x2="190.5" y2="50.8" width="0.2032" layer="91"/>
-<pinref part="LED" gate="G$1" pin="P$12"/>
-<pinref part="LED_GND" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="190.5" y1="53.34" x2="187.96" y2="53.34" width="0.2032" layer="91"/>
-<pinref part="LED_GND" gate="G$1" pin="4"/>
-<pinref part="LED" gate="G$1" pin="P$13"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="187.96" y1="55.88" x2="190.5" y2="55.88" width="0.2032" layer="91"/>
-<pinref part="LED" gate="G$1" pin="P$14"/>
-<pinref part="LED_GND" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="190.5" y1="58.42" x2="187.96" y2="58.42" width="0.2032" layer="91"/>
-<pinref part="LED_GND" gate="G$1" pin="2"/>
-<pinref part="LED" gate="G$1" pin="P$15"/>
-</segment>
-</net>
-<net name="P$16" class="0">
-<segment>
-<wire x1="187.96" y1="60.96" x2="190.5" y2="60.96" width="0.2032" layer="91"/>
-<pinref part="LED" gate="G$1" pin="P$16"/>
-<pinref part="LED_GND" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX3" class="0">
@@ -8869,16 +8595,6 @@ type 0309, grid 2.5 mm</description>
 <pinref part="3V_I2C_2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-<label x="73.66" y="20.32" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="33.02" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="7"/>
-</segment>
-<segment>
 <wire x1="129.54" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <label x="129.54" y="33.02" size="1.778" layer="95"/>
 <pinref part="BARO" gate="G$1" pin="6"/>
@@ -8904,16 +8620,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 <label x="157.48" y="71.12" size="1.778" layer="95"/>
 <pinref part="3V_I2C_2" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<label x="73.66" y="22.86" size="1.778" layer="95"/>
-<pinref part="GYRO" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95"/>
-<pinref part="ACCEL" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
