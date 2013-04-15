@@ -19235,7 +19235,6 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
 <part name="JP3-1" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP3-2" library="SparkFun-Connectors" deviceset="M09" device=""/>
-<part name="R39" library="SparkFun" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
@@ -19293,6 +19292,9 @@ http://www.jst-mfg.com&lt;p&gt;
 <text x="500.38" y="71.12" size="1.778" layer="91">AI3</text>
 <text x="500.38" y="73.66" size="1.778" layer="91">AI4</text>
 <text x="500.38" y="76.2" size="1.778" layer="91">AI5</text>
+<text x="332.74" y="175.26" size="1.778" layer="91">Do not install
+R37 and R38
+if using SPI</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -19506,7 +19508,6 @@ http://www.jst-mfg.com&lt;p&gt;
 <instance part="JP4-2" gate="G$1" x="487.68" y="12.7"/>
 <instance part="JP3-1" gate="G$1" x="447.04" y="68.58"/>
 <instance part="JP3-2" gate="G$1" x="472.44" y="68.58"/>
-<instance part="R39" gate="G$1" x="279.4" y="50.8" rot="R90"/>
 <instance part="JP5" gate="G$1" x="114.3" y="-43.18"/>
 </instances>
 <busses>
@@ -20376,7 +20377,6 @@ http://www.jst-mfg.com&lt;p&gt;
 <segment>
 <wire x1="309.88" y1="58.42" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="55.88" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="55.88" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="55.88" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="55.88" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
 <junction x="309.88" y="55.88"/>
@@ -20384,7 +20384,18 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="U10" gate="G$1" pin="VDD"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <label x="309.88" y="58.42" size="1.778" layer="95"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="55.88" x2="281.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="55.88" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="CSB@2"/>
+<wire x1="281.94" y1="40.64" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="38.1" x2="281.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="35.56" x2="292.1" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="CSB"/>
+<wire x1="292.1" y1="38.1" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PS"/>
+<wire x1="292.1" y1="40.64" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="281.94" y="40.64"/>
+<junction x="281.94" y="38.1"/>
 </segment>
 <segment>
 <wire x1="342.9" y1="157.48" x2="327.66" y2="157.48" width="0.1524" layer="91"/>
@@ -20536,7 +20547,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <label x="482.6" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UART4_TX" class="0">
+<net name="SCK3_LV" class="0">
 <segment>
 <wire x1="233.68" y1="116.84" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
@@ -20548,7 +20559,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="UART4_RX" class="0">
+<net name="MISO3_LV" class="0">
 <segment>
 <wire x1="233.68" y1="114.3" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 <label x="233.68" y="114.3" size="1.778" layer="95"/>
@@ -20565,11 +20576,6 @@ http://www.jst-mfg.com&lt;p&gt;
 <label x="276.86" y="160.02" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="AD0/SDO"/>
 <pinref part="R48" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="SDO"/>
-<wire x1="292.1" y1="30.48" x2="281.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="281.94" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TIM1_CH1" class="0">
@@ -20873,7 +20879,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <label x="162.56" y="40.64" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="UART5_TX" class="0">
+<net name="MOSI3_LV" class="0">
 <segment>
 <wire x1="233.68" y1="111.76" x2="241.3" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="170.18" x2="345.44" y2="170.18" width="0.1524" layer="91"/>
@@ -21013,23 +21019,11 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="R62" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="BARO_CS" class="0">
+<net name="PD10" class="0">
 <segment>
 <wire x1="233.68" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="236.22" y="86.36" size="1.778" layer="95"/>
 <pinref part="U2" gate="PORTD_H" pin="PD10"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="CSB@2"/>
-<wire x1="292.1" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="35.56" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="CSB"/>
-<wire x1="279.4" y1="38.1" x2="279.4" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="38.1" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
-<junction x="279.4" y="38.1"/>
-<wire x1="279.4" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="264.16" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART2_CTS" class="0">
@@ -21362,16 +21356,11 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="R53" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="BARO_PS" class="0">
+<net name="PE7" class="0">
 <segment>
 <wire x1="203.2" y1="43.18" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="205.74" y="43.18" size="1.778" layer="95"/>
 <pinref part="U2" gate="PORTE_L" pin="PE7"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$1" pin="PS"/>
-<wire x1="292.1" y1="40.64" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="281.94" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -21844,6 +21833,8 @@ http://www.jst-mfg.com&lt;p&gt;
 <approved hash="106,1,203.2,91.44,CAN_RX,,,,,"/>
 <approved hash="106,1,203.2,88.9,CAN_TX,,,,,"/>
 <approved hash="106,1,233.68,104.14,PC15,,,,,"/>
+<approved hash="106,1,233.68,86.36,PD10,,,,,"/>
+<approved hash="106,1,203.2,43.18,PE7,,,,,"/>
 <approved hash="106,1,233.68,147.32,SDIO_D5,,,,,"/>
 <approved hash="106,1,233.68,109.22,TAMPER_RTC,,,,,"/>
 <approved hash="106,1,233.68,43.18,TIM1_BKIN,,,,,"/>
@@ -21860,4 +21851,10 @@ http://www.jst-mfg.com&lt;p&gt;
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
