@@ -19198,8 +19198,8 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="SUPPLY12" library="supply2" deviceset="V+" device="" value="VDD"/>
 <part name="GND52" library="SparkFun" deviceset="GND" device=""/>
 <part name="R64" library="SparkFun" deviceset="RESISTOR" device="0402" value="10K"/>
-<part name="JP1-1" library="SparkFun-Connectors" deviceset="M08" device="LOCK"/>
-<part name="JP1-2" library="SparkFun-Connectors" deviceset="M08" device="LOCK"/>
+<part name="JP1-1" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="JP1"/>
+<part name="JP1-2" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="JP1"/>
 <part name="JP2-1" library="SparkFun-Connectors" deviceset="M12" device="LOCK"/>
 <part name="JP2-2" library="SparkFun-Connectors" deviceset="M12" device="LOCK"/>
 <part name="JP2-3" library="SparkFun-Connectors" deviceset="M12" device="LOCK"/>
@@ -19231,8 +19231,8 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="GPS" library="con-jst2" deviceset="?M06B-SRSS-TB" device="S"/>
 <part name="OSD" library="con-jst2" deviceset="?M07B-SRSS-TB" device="S"/>
 <part name="L2" library="SparkFun" deviceset="INDUCTOR" device="0805" value="22uH"/>
-<part name="JP4-1" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
-<part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
+<part name="JP4-1" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP4"/>
+<part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP4"/>
 <part name="JP3-1" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP3-2" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
@@ -19890,11 +19890,6 @@ if using SPI</text>
 <label x="406.4" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3-1" gate="G$1" pin="1"/>
-<wire x1="457.2" y1="58.42" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
-<label x="457.2" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP3-1" gate="G$1" pin="5"/>
 <wire x1="457.2" y1="68.58" x2="467.36" y2="68.58" width="0.1524" layer="91"/>
 <label x="457.2" y="68.58" size="1.778" layer="95"/>
@@ -19923,6 +19918,11 @@ if using SPI</text>
 <pinref part="JP3-1" gate="G$1" pin="9"/>
 <wire x1="457.2" y1="78.74" x2="467.36" y2="78.74" width="0.1524" layer="91"/>
 <label x="457.2" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3-1" gate="G$1" pin="3"/>
+<wire x1="457.2" y1="63.5" x2="467.36" y2="63.5" width="0.1524" layer="91"/>
+<label x="457.2" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -20034,9 +20034,9 @@ if using SPI</text>
 <label x="429.26" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3-2" gate="G$1" pin="1"/>
-<wire x1="482.6" y1="58.42" x2="492.76" y2="58.42" width="0.1524" layer="91"/>
-<label x="482.6" y="58.42" size="1.778" layer="95"/>
+<pinref part="JP3-2" gate="G$1" pin="4"/>
+<wire x1="482.6" y1="66.04" x2="492.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="482.6" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -20106,9 +20106,9 @@ if using SPI</text>
 <pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP3-1" gate="G$1" pin="3"/>
-<wire x1="457.2" y1="63.5" x2="467.36" y2="63.5" width="0.1524" layer="91"/>
-<label x="457.2" y="63.5" size="1.778" layer="95"/>
+<pinref part="JP3-1" gate="G$1" pin="2"/>
+<wire x1="457.2" y1="60.96" x2="467.36" y2="60.96" width="0.1524" layer="91"/>
+<label x="457.2" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -20530,9 +20530,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTD_H" pin="PD8"/>
 </segment>
 <segment>
-<pinref part="JP3-1" gate="G$1" pin="2"/>
-<wire x1="457.2" y1="60.96" x2="467.36" y2="60.96" width="0.1524" layer="91"/>
-<label x="457.2" y="60.96" size="1.778" layer="95"/>
+<pinref part="JP3-1" gate="G$1" pin="1"/>
+<wire x1="457.2" y1="58.42" x2="467.36" y2="58.42" width="0.1524" layer="91"/>
+<label x="457.2" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART3_RX" class="0">
@@ -20542,9 +20542,9 @@ if using SPI</text>
 <pinref part="U13" gate="A" pin="I0"/>
 </segment>
 <segment>
-<pinref part="JP3-2" gate="G$1" pin="2"/>
-<wire x1="482.6" y1="60.96" x2="492.76" y2="60.96" width="0.1524" layer="91"/>
-<label x="482.6" y="60.96" size="1.778" layer="95"/>
+<pinref part="JP3-2" gate="G$1" pin="1"/>
+<wire x1="482.6" y1="58.42" x2="492.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="482.6" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK3_LV" class="0">
@@ -20911,9 +20911,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTA_H" pin="PA14"/>
 </segment>
 <segment>
-<pinref part="JP3-2" gate="G$1" pin="4"/>
-<wire x1="482.6" y1="66.04" x2="492.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="482.6" y="66.04" size="1.778" layer="95"/>
+<pinref part="JP3-2" gate="G$1" pin="3"/>
+<wire x1="482.6" y1="63.5" x2="492.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="482.6" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JTMS" class="0">
@@ -20923,9 +20923,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTA_H" pin="PA13"/>
 </segment>
 <segment>
-<pinref part="JP3-2" gate="G$1" pin="3"/>
-<wire x1="482.6" y1="63.5" x2="492.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="482.6" y="63.5" size="1.778" layer="95"/>
+<pinref part="JP3-2" gate="G$1" pin="2"/>
+<wire x1="482.6" y1="60.96" x2="492.76" y2="60.96" width="0.1524" layer="91"/>
+<label x="482.6" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART1_CK" class="0">
@@ -21843,10 +21843,6 @@ if using SPI</text>
 <approved hash="106,1,233.68,177.8,UART1_CK,,,,,"/>
 <approved hash="106,1,203.2,86.36,UART5_RX,,,,,"/>
 <approved hash="106,1,203.2,83.82,USART2_CTS,,,,,"/>
-<approved hash="115,1,403.183,68.7747,JP1-1,,,,,"/>
-<approved hash="115,1,426.043,68.7747,JP1-2,,,,,"/>
-<approved hash="115,1,492.083,28.1347,JP4-1,,,,,"/>
-<approved hash="115,1,492.083,15.4347,JP4-2,,,,,"/>
 <approved hash="115,1,118.703,-40.4453,JP5,,,,,"/>
 </errors>
 </schematic>
