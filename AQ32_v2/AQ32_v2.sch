@@ -21850,6 +21850,7 @@ if using SPI</text>
 <approved hash="102,1,309.88,58.42,VDD,3V3DIG,,,,"/>
 <approved hash="102,1,147.32,-27.94,VDD,3V3DIG,,,,"/>
 <approved hash="102,1,139.7,33.02,V+,3V3DIG,,,,"/>
+<approved hash="102,1,129.54,58.42,V+,3V3DIG,,,,"/>
 <approved hash="104,1,172.72,104.14,U2POWER,VDD_1,3V3DIG,,,"/>
 <approved hash="104,1,172.72,99.06,U2POWER,VDD_2,3V3DIG,,,"/>
 <approved hash="104,1,172.72,93.98,U2POWER,VDD_3,3V3DIG,,,"/>
@@ -21865,6 +21866,7 @@ if using SPI</text>
 <approved hash="104,1,172.72,124.46,U2BAT_AN,VDDA,3V3AN,,,"/>
 <approved hash="103,1,177.8,116.84,U2BAT_AN,NC,N$28,,,"/>
 <approved hash="104,1,139.7,30.48,U13P,VCC,3V3DIG,,,"/>
+<approved hash="104,1,129.54,55.88,U3P,VCC,3V3DIG,,,"/>
 <approved hash="106,1,429.26,25.4,5V-4,,,,,"/>
 <approved hash="106,1,429.26,27.94,5V-5,,,,,"/>
 <approved hash="106,1,429.26,30.48,5V-6,,,,,"/>
@@ -21887,6 +21889,7 @@ if using SPI</text>
 <approved hash="106,1,203.2,86.36,UART5_RX,,,,,"/>
 <approved hash="106,1,203.2,83.82,USART2_CTS,,,,,"/>
 <approved hash="115,1,118.703,-40.4453,JP5,,,,,"/>
+<approved hash="115,1,22.1827,101.795,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
