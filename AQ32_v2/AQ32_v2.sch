@@ -19239,7 +19239,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="U3" library="74xx-little-us" deviceset="74*1G86" device="DCK" technology="AHC"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device="" value="VDD"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP1"/>
 </parts>
 <sheets>
 <sheet>
@@ -19556,12 +19556,12 @@ if using SPI</text>
 <wire x1="33.02" y1="76.2" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="73.66" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <junction x="33.02" y="73.66"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
@@ -21850,7 +21850,6 @@ if using SPI</text>
 <approved hash="102,1,309.88,58.42,VDD,3V3DIG,,,,"/>
 <approved hash="102,1,147.32,-27.94,VDD,3V3DIG,,,,"/>
 <approved hash="102,1,139.7,33.02,V+,3V3DIG,,,,"/>
-<approved hash="102,1,129.54,58.42,V+,3V3DIG,,,,"/>
 <approved hash="104,1,172.72,104.14,U2POWER,VDD_1,3V3DIG,,,"/>
 <approved hash="104,1,172.72,99.06,U2POWER,VDD_2,3V3DIG,,,"/>
 <approved hash="104,1,172.72,93.98,U2POWER,VDD_3,3V3DIG,,,"/>
@@ -21866,7 +21865,6 @@ if using SPI</text>
 <approved hash="104,1,172.72,124.46,U2BAT_AN,VDDA,3V3AN,,,"/>
 <approved hash="103,1,177.8,116.84,U2BAT_AN,NC,N$28,,,"/>
 <approved hash="104,1,139.7,30.48,U13P,VCC,3V3DIG,,,"/>
-<approved hash="104,1,129.54,55.88,U3P,VCC,3V3DIG,,,"/>
 <approved hash="106,1,429.26,25.4,5V-4,,,,,"/>
 <approved hash="106,1,429.26,27.94,5V-5,,,,,"/>
 <approved hash="106,1,429.26,30.48,5V-6,,,,,"/>
@@ -21889,7 +21887,6 @@ if using SPI</text>
 <approved hash="106,1,203.2,86.36,UART5_RX,,,,,"/>
 <approved hash="106,1,203.2,83.82,USART2_CTS,,,,,"/>
 <approved hash="115,1,118.703,-40.4453,JP5,,,,,"/>
-<approved hash="115,1,22.1827,101.795,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
