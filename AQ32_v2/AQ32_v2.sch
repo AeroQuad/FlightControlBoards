@@ -19230,15 +19230,15 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="GPS" library="con-jst2" deviceset="?M06B-SRSS-TB" device="S"/>
 <part name="OSD" library="con-jst2" deviceset="?M07B-SRSS-TB" device="S"/>
 <part name="L2" library="SparkFun" deviceset="INDUCTOR" device="0805" value="22uH"/>
-<part name="JP4-1" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP4"/>
-<part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP4"/>
+<part name="JP4-1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP4"/>
+<part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP4"/>
 <part name="JP3-1" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP3-2" library="SparkFun-Connectors" deviceset="M09" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="U3" library="74xx-little-us" deviceset="74*1G86" device="DCK" technology="AHC"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device="" value="VDD"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP1"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP1"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VDDA"/>
 </parts>
 <sheets>
