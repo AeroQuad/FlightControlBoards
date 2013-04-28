@@ -352,7 +352,7 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="136 166 985 693"
+Loc="136 179 985 706"
 State=2
 Number=0
 

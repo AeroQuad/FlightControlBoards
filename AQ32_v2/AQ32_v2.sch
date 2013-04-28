@@ -19239,7 +19239,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="U3" library="74xx-little-us" deviceset="74*1G86" device="DCK" technology="AHC"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device="" value="VDD"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="JP1"/>
 </parts>
 <sheets>
 <sheet>
@@ -19556,12 +19556,12 @@ if using SPI</text>
 <wire x1="33.02" y1="76.2" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="73.66" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <junction x="33.02" y="73.66"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
@@ -21457,26 +21457,26 @@ if using SPI</text>
 </net>
 <net name="LEDGND1" class="0">
 <segment>
-<wire x1="30.48" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="C"/>
-<label x="27.94" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP4-1" gate="G$1" pin="1"/>
 <wire x1="495.3" y1="25.4" x2="505.46" y2="25.4" width="0.1524" layer="91"/>
 <label x="495.3" y="25.4" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="LEDGND2" class="0">
 <segment>
 <wire x1="30.48" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <label x="27.94" y="33.02" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="LEDGND2" class="0">
 <segment>
 <pinref part="JP4-1" gate="G$1" pin="2"/>
 <wire x1="495.3" y1="27.94" x2="505.46" y2="27.94" width="0.1524" layer="91"/>
 <label x="495.3" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
+<label x="27.94" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEDGND4" class="0">
