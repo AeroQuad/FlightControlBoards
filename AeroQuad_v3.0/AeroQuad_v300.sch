@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6614,22 +6614,21 @@ a single data stream for the application</description>
 <text x="109.22" y="154.94" size="1.778" layer="91">39</text>
 <text x="109.22" y="172.72" size="1.778" layer="91">25</text>
 <text x="109.22" y="170.18" size="1.778" layer="91">27</text>
-<text x="43.688" y="117.602" size="1.778" layer="91">COMMAND &amp; TELEMETRY</text>
 <text x="109.22" y="152.4" size="1.778" layer="91">41</text>
 <text x="109.22" y="149.86" size="1.778" layer="91">43</text>
 <text x="88.9" y="149.86" size="1.778" layer="91">42</text>
 <text x="88.9" y="147.32" size="1.778" layer="91">44</text>
-<text x="467.36" y="48.26" size="1.778" layer="91">2</text>
-<text x="467.36" y="45.72" size="1.778" layer="91">3</text>
-<text x="467.36" y="43.18" size="1.778" layer="91">4</text>
-<text x="467.36" y="40.64" size="1.778" layer="91">5</text>
-<text x="467.36" y="38.1" size="1.778" layer="91">10</text>
-<text x="467.36" y="35.56" size="1.778" layer="91">11</text>
-<text x="467.36" y="33.02" size="1.778" layer="91">12</text>
-<text x="467.36" y="30.48" size="1.778" layer="91">13</text>
+<text x="121.92" y="119.38" size="1.778" layer="91">2</text>
+<text x="121.92" y="116.84" size="1.778" layer="91">3</text>
+<text x="121.92" y="114.3" size="1.778" layer="91">4</text>
+<text x="121.92" y="111.76" size="1.778" layer="91">5</text>
+<text x="121.92" y="109.22" size="1.778" layer="91">10</text>
+<text x="121.92" y="106.68" size="1.778" layer="91">11</text>
+<text x="121.92" y="104.14" size="1.778" layer="91">12</text>
+<text x="121.92" y="101.6" size="1.778" layer="91">13</text>
 <text x="15.24" y="88.9" size="1.778" layer="91">11</text>
-<text x="68.58" y="88.9" size="1.778" layer="91">11</text>
-<text x="68.58" y="86.36" size="1.778" layer="91">12</text>
+<text x="167.64" y="144.78" size="1.778" layer="91">42</text>
+<text x="167.64" y="142.24" size="1.778" layer="91">44</text>
 <text x="88.9" y="144.78" size="1.778" layer="91">46</text>
 <text x="88.9" y="142.24" size="1.778" layer="91">48</text>
 <text x="88.9" y="139.7" size="1.778" layer="91">50</text>
@@ -6640,15 +6639,15 @@ a single data stream for the application</description>
 <text x="109.22" y="139.7" size="1.778" layer="91">51</text>
 <text x="109.22" y="137.16" size="1.778" layer="91">53</text>
 <text x="88.9" y="167.64" size="1.778" layer="91">25</text>
-<text x="68.58" y="83.82" size="1.778" layer="91">13</text>
+<text x="167.64" y="139.7" size="1.778" layer="91">53</text>
 <text x="44.196" y="143.764" size="1.778" layer="91">GPS</text>
-<text x="142.24" y="88.9" size="1.778" layer="91">RX</text>
-<text x="142.24" y="86.36" size="1.778" layer="91">TX</text>
-<text x="142.24" y="83.82" size="1.778" layer="91">GND</text>
-<text x="142.24" y="81.28" size="1.778" layer="91">VIN</text>
-<text x="142.24" y="78.74" size="1.778" layer="91">VBAT</text>
-<text x="142.24" y="76.2" size="1.778" layer="91">LED</text>
-<text x="398.78" y="7.62" size="1.778" layer="91">* SN74LVC245A - Octal Transceiver(296-1231-1-ND)
+<text x="441.96" y="35.56" size="1.778" layer="91">RX</text>
+<text x="441.96" y="33.02" size="1.778" layer="91">TX</text>
+<text x="441.96" y="30.48" size="1.778" layer="91">GND</text>
+<text x="441.96" y="27.94" size="1.778" layer="91">VIN</text>
+<text x="441.96" y="25.4" size="1.778" layer="91">VBAT</text>
+<text x="441.96" y="22.86" size="1.778" layer="91">LED</text>
+<text x="53.34" y="78.74" size="1.778" layer="91">* SN74LVC245A - Octal Transceiver(296-1231-1-ND)
 Receiver Input, PWM: 2,3,4,5,10,11,12,13</text>
 <text x="144.78" y="149.86" size="1.778" layer="91">Motor ESC's, PWM:
 6,7,8,9,34,36,38,40</text>
@@ -6662,6 +6661,8 @@ Receiver Input, PWM: 2,3,4,5,10,11,12,13</text>
 <text x="167.64" y="157.48" size="1.778" layer="91">9</text>
 <text x="2.54" y="190.5" size="1.778" layer="91">All AQ functions on each pin need to be reviewed
 All Arduino pin functions should be the same (still needs review, especially voltage)</text>
+<text x="154.94" y="129.54" size="1.778" layer="91">Cam Servo:
+42,44,53</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -6713,7 +6714,7 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <instance part="AI_GND" gate="G$1" x="109.22" y="58.42" rot="R180"/>
 <instance part="U$3" gate="G$1" x="81.28" y="68.58"/>
 <instance part="GND4" gate="1" x="167.64" y="68.58"/>
-<instance part="RECEIVER_INPUT" gate="G$1" x="459.74" y="38.1" rot="MR0"/>
+<instance part="RECEIVER_INPUT" gate="G$1" x="114.3" y="109.22" rot="MR0"/>
 <instance part="RCV_GND" gate="G$1" x="238.76" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="243.84" y="107.95" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -6759,20 +6760,20 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <instance part="U9" gate="G$1" x="289.56" y="35.56"/>
 <instance part="GND7" gate="1" x="271.78" y="20.32"/>
 <instance part="GND27" gate="1" x="261.62" y="20.32"/>
-<instance part="X1" gate="-1" x="149.86" y="88.9"/>
-<instance part="X1" gate="-2" x="149.86" y="86.36"/>
-<instance part="X1" gate="-3" x="149.86" y="83.82"/>
-<instance part="X1" gate="-4" x="149.86" y="81.28"/>
-<instance part="X1" gate="-5" x="149.86" y="78.74"/>
-<instance part="X1" gate="-6" x="149.86" y="76.2"/>
-<instance part="GND8" gate="1" x="127" y="68.58"/>
-<instance part="3.3V2" gate="G$1" x="116.84" y="101.6"/>
-<instance part="CAM_IN" gate="G$1" x="63.5" y="86.36" rot="R180"/>
+<instance part="X1" gate="-1" x="449.58" y="35.56"/>
+<instance part="X1" gate="-2" x="449.58" y="33.02"/>
+<instance part="X1" gate="-3" x="449.58" y="30.48"/>
+<instance part="X1" gate="-4" x="449.58" y="27.94"/>
+<instance part="X1" gate="-5" x="449.58" y="25.4"/>
+<instance part="X1" gate="-6" x="449.58" y="22.86"/>
+<instance part="GND8" gate="1" x="426.72" y="15.24"/>
+<instance part="3.3V2" gate="G$1" x="416.56" y="48.26"/>
+<instance part="CAM_IN" gate="G$1" x="162.56" y="142.24" rot="R180"/>
 <instance part="CAM_GND" gate="G$1" x="215.9" y="91.44" rot="R180"/>
 <instance part="CAM_PWR" gate="G$1" x="215.9" y="106.68" rot="R180"/>
 <instance part="GND18" gate="1" x="203.2" y="81.28"/>
-<instance part="RCV_PPM" gate="G$1" x="462.28" y="71.12" rot="R180"/>
-<instance part="GND19" gate="1" x="449.58" y="60.96"/>
+<instance part="RCV_PPM" gate="G$1" x="149.86" y="114.3" rot="R180"/>
+<instance part="GND19" gate="1" x="137.16" y="104.14"/>
 <instance part="3.3V3" gate="G$1" x="274.32" y="137.16"/>
 <instance part="3.3V4" gate="G$1" x="266.7" y="137.16"/>
 <instance part="C3" gate="G$1" x="355.6" y="96.52"/>
@@ -6797,17 +6798,17 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </instance>
 <instance part="GND22" gate="1" x="198.12" y="40.64"/>
 <instance part="R12" gate="G$1" x="198.12" y="60.96" rot="R90"/>
-<instance part="GPSBAT" gate="G$1" x="106.68" y="76.2"/>
-<instance part="GPS" gate="G$1" x="127" y="99.06" rot="R270"/>
+<instance part="GPSBAT" gate="G$1" x="406.4" y="22.86"/>
+<instance part="GPS" gate="G$1" x="426.72" y="45.72" rot="R270"/>
 <instance part="3.3V6" gate="G$1" x="365.76" y="55.88"/>
-<instance part="IC3" gate="A" x="431.8" y="35.56" smashed="yes">
-<attribute name="NAME" x="424.18" y="51.435" size="1.778" layer="95"/>
-<attribute name="VALUE" x="424.18" y="17.78" size="1.778" layer="96"/>
+<instance part="IC3" gate="A" x="86.36" y="106.68" smashed="yes">
+<attribute name="NAME" x="78.74" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.74" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="P" x="401.32" y="30.48"/>
-<instance part="3.3V7" gate="G$1" x="401.32" y="40.64"/>
-<instance part="GND23" gate="1" x="401.32" y="17.78"/>
-<instance part="GND24" gate="1" x="416.56" y="17.78"/>
+<instance part="IC3" gate="P" x="55.88" y="101.6"/>
+<instance part="3.3V7" gate="G$1" x="55.88" y="111.76"/>
+<instance part="GND23" gate="1" x="55.88" y="88.9"/>
+<instance part="GND24" gate="1" x="71.12" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -7017,8 +7018,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <segment>
 <pinref part="RCV_PPM" gate="G$1" pin="3"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="454.66" y1="68.58" x2="449.58" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="68.58" x2="449.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="111.76" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="CLKIN"/>
@@ -7062,16 +7063,16 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </segment>
 <segment>
 <pinref part="X1" gate="-3" pin="1"/>
-<wire x1="144.78" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="30.48" x2="426.72" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="127" y1="83.82" x2="127" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="30.48" x2="426.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GPSBAT" gate="G$1" pin="1"/>
-<wire x1="127" y1="76.2" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<junction x="127" y="76.2"/>
+<wire x1="426.72" y1="22.86" x2="426.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="22.86" x2="426.72" y2="22.86" width="0.1524" layer="91"/>
+<junction x="426.72" y="22.86"/>
 <pinref part="GPS" gate="G$1" pin="2"/>
-<wire x1="127" y1="83.82" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<junction x="127" y="83.82"/>
+<wire x1="426.72" y1="30.48" x2="426.72" y2="40.64" width="0.1524" layer="91"/>
+<junction x="426.72" y="30.48"/>
 </segment>
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
@@ -7085,11 +7086,11 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <segment>
 <pinref part="IC3" gate="A" pin="G"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="419.1" y1="22.86" x2="416.56" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="22.86" x2="416.56" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="93.98" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="DIR"/>
-<wire x1="419.1" y1="25.4" x2="416.56" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="25.4" x2="416.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="96.52" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -7151,8 +7152,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </segment>
 <segment>
 <pinref part="RCV_PPM" gate="G$1" pin="2"/>
-<wire x1="454.66" y1="71.12" x2="447.04" y2="71.12" width="0.1524" layer="91"/>
-<label x="447.04" y="71.12" size="1.778" layer="95"/>
+<wire x1="142.24" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<label x="134.62" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7220,13 +7221,13 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </segment>
 <segment>
 <pinref part="X1" gate="-4" pin="1"/>
-<wire x1="144.78" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="27.94" x2="424.18" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="3.3V2" gate="G$1" pin="3.3V"/>
-<wire x1="124.46" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="81.28" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="27.94" x2="416.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="27.94" x2="416.56" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GPS" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="93.98" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<junction x="124.46" y="81.28"/>
+<wire x1="424.18" y1="40.64" x2="424.18" y2="27.94" width="0.1524" layer="91"/>
+<junction x="424.18" y="27.94"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="55.88" x2="365.76" y2="53.34" width="0.1524" layer="91"/>
@@ -7315,10 +7316,10 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
-<wire x1="144.78" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="134.62" y="88.9" size="1.778" layer="95"/>
+<wire x1="444.5" y1="35.56" x2="431.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="434.34" y="35.56" size="1.778" layer="95"/>
 <pinref part="GPS" gate="G$1" pin="4"/>
-<wire x1="132.08" y1="88.9" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="35.56" x2="431.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -7332,10 +7333,10 @@ All Arduino pin functions should be the same (still needs review, especially vol
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="1"/>
-<wire x1="144.78" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
-<label x="134.62" y="86.36" size="1.778" layer="95"/>
+<wire x1="444.5" y1="33.02" x2="429.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="434.34" y="33.02" size="1.778" layer="95"/>
 <pinref part="GPS" gate="G$1" pin="3"/>
-<wire x1="129.54" y1="86.36" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="33.02" x2="429.26" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -7346,12 +7347,17 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <pinref part="U$9" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="CAM2" class="0">
 <segment>
 <wire x1="96.52" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
 <label x="76.2" y="147.32" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="23"/>
 <pinref part="U$8" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="CAM_IN" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<label x="144.78" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -7634,20 +7640,30 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <pinref part="U$9" gate="G$1" pin="11"/>
 </segment>
 </net>
-<net name="SERVO10" class="0">
+<net name="CAM1" class="0">
 <segment>
 <wire x1="96.52" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 <label x="76.2" y="149.86" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="21"/>
 <pinref part="U$8" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<pinref part="CAM_IN" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<label x="144.78" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="SS" class="0">
+<net name="CAM3" class="0">
 <segment>
 <wire x1="104.14" y1="137.16" x2="127" y2="137.16" width="0.2032" layer="91"/>
 <label x="114.3" y="137.16" size="1.778" layer="95"/>
 <pinref part="DIO_22-53" gate="A" pin="32"/>
 <pinref part="U$9" gate="G$1" pin="17"/>
+</segment>
+<segment>
+<pinref part="CAM_IN" gate="G$1" pin="3"/>
+<wire x1="154.94" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<label x="144.78" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AI1" class="0">
@@ -7930,7 +7946,7 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <label x="297.18" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA1" class="0">
+<net name="SDA1-L" class="0">
 <segment>
 <wire x1="15.24" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
@@ -7940,7 +7956,7 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <label x="33.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL1" class="0">
+<net name="SCL1-L" class="0">
 <segment>
 <wire x1="15.24" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
@@ -8084,15 +8100,15 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="N$8" class="0">
 <segment>
 <pinref part="X1" gate="-5" pin="1"/>
-<wire x1="144.78" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="25.4" x2="414.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GPSBAT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GLED" class="0">
 <segment>
 <pinref part="X1" gate="-6" pin="1"/>
-<wire x1="144.78" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-<label x="134.62" y="76.2" size="1.778" layer="95"/>
+<wire x1="444.5" y1="22.86" x2="434.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="434.34" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -8110,8 +8126,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM2" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A1"/>
-<wire x1="419.1" y1="48.26" x2="408.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="408.94" y="48.26" size="1.778" layer="95"/>
+<wire x1="73.66" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<label x="63.5" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="114.3" x2="30.48" y2="114.3" width="0.2032" layer="91"/>
@@ -8125,8 +8141,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM3" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A2"/>
-<wire x1="419.1" y1="45.72" x2="408.94" y2="45.72" width="0.1524" layer="91"/>
-<label x="408.94" y="45.72" size="1.778" layer="95"/>
+<wire x1="73.66" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="63.5" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
@@ -8140,8 +8156,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM4" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A3"/>
-<wire x1="419.1" y1="43.18" x2="408.94" y2="43.18" width="0.1524" layer="91"/>
-<label x="408.94" y="43.18" size="1.778" layer="95"/>
+<wire x1="73.66" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
+<label x="63.5" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM_LOW1" gate="G$1" pin="5"/>
@@ -8155,8 +8171,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM5" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A4"/>
-<wire x1="419.1" y1="40.64" x2="408.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="408.94" y="40.64" size="1.778" layer="95"/>
+<wire x1="73.66" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<label x="63.5" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="106.68" x2="30.48" y2="106.68" width="0.2032" layer="91"/>
@@ -8170,8 +8186,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM10" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A5"/>
-<wire x1="419.1" y1="38.1" x2="408.94" y2="38.1" width="0.1524" layer="91"/>
-<label x="408.94" y="38.1" size="1.778" layer="95"/>
+<wire x1="73.66" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
+<label x="63.5" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="91.44" x2="30.48" y2="91.44" width="0.2032" layer="91"/>
@@ -8185,8 +8201,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM11" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A6"/>
-<wire x1="419.1" y1="35.56" x2="408.94" y2="35.56" width="0.1524" layer="91"/>
-<label x="408.94" y="35.56" size="1.778" layer="95"/>
+<wire x1="73.66" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
+<label x="63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM_HIGH1" gate="G$1" pin="4"/>
@@ -8200,8 +8216,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM12" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A7"/>
-<wire x1="419.1" y1="33.02" x2="408.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="408.94" y="33.02" size="1.778" layer="95"/>
+<wire x1="73.66" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM_HIGH1" gate="G$1" pin="5"/>
@@ -8215,8 +8231,8 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="PWM13" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="A8"/>
-<wire x1="419.1" y1="30.48" x2="408.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="408.94" y="30.48" size="1.778" layer="95"/>
+<wire x1="73.66" y1="101.6" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
+<label x="63.5" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM_HIGH1" gate="G$1" pin="6"/>
@@ -8230,70 +8246,70 @@ All Arduino pin functions should be the same (still needs review, especially vol
 <net name="AUX3" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B1"/>
-<wire x1="444.5" y1="48.26" x2="454.66" y2="48.26" width="0.1524" layer="91"/>
-<label x="447.04" y="48.26" size="1.778" layer="95"/>
+<wire x1="99.06" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<label x="101.6" y="119.38" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="AUX2" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B2"/>
-<wire x1="444.5" y1="45.72" x2="454.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="447.04" y="45.72" size="1.778" layer="95"/>
+<wire x1="99.06" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<label x="101.6" y="116.84" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="AUX1" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B3"/>
-<wire x1="444.5" y1="43.18" x2="454.66" y2="43.18" width="0.1524" layer="91"/>
-<label x="447.04" y="43.18" size="1.778" layer="95"/>
+<wire x1="99.06" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<label x="101.6" y="114.3" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="GEAR" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B4"/>
-<wire x1="444.5" y1="40.64" x2="454.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="447.04" y="40.64" size="1.778" layer="95"/>
+<wire x1="99.06" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<label x="101.6" y="111.76" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="RUDD" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B5"/>
-<wire x1="444.5" y1="38.1" x2="454.66" y2="38.1" width="0.1524" layer="91"/>
-<label x="447.04" y="38.1" size="1.778" layer="95"/>
+<wire x1="99.06" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="101.6" y="109.22" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="ELEV" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B6"/>
-<wire x1="444.5" y1="35.56" x2="454.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="447.04" y="35.56" size="1.778" layer="95"/>
+<wire x1="99.06" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="101.6" y="106.68" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="AILE" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B7"/>
-<wire x1="444.5" y1="33.02" x2="454.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="447.04" y="33.02" size="1.778" layer="95"/>
+<wire x1="99.06" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<label x="101.6" y="104.14" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="THRO" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="B8"/>
-<wire x1="444.5" y1="30.48" x2="454.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="447.04" y="30.48" size="1.778" layer="95"/>
+<wire x1="99.06" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="101.6" y="101.6" size="1.778" layer="95"/>
 <pinref part="RECEIVER_INPUT" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="RCV_PPM" gate="G$1" pin="1"/>
-<wire x1="454.66" y1="73.66" x2="447.04" y2="73.66" width="0.1524" layer="91"/>
-<label x="447.04" y="73.66" size="1.778" layer="95"/>
+<wire x1="142.24" y1="116.84" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
+<label x="134.62" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
