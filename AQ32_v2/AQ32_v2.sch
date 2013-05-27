@@ -19169,9 +19169,9 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="R61" library="rcl" deviceset="R-US_" device="R0402" value="1K5"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R60" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="C42" library="rcl" deviceset="C-US" device="C0805" value="220uF"/>
+<part name="C42" library="rcl" deviceset="C-US" device="C0805" value="47uF"/>
 <part name="C43" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C44" library="rcl" deviceset="C-US" device="C1206" value="47uF"/>
+<part name="C44" library="rcl" deviceset="C-US" device="C1206" value="220uF"/>
 <part name="U10" library="DSP-TI" deviceset="MS5611" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="C45" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
@@ -19237,6 +19237,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP1"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VDDA"/>
 <part name="R39" library="SparkFun" deviceset="RESISTOR" device="0402" value="0R"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0402" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -19512,6 +19513,7 @@ if using SPI</text>
 <instance part="JP1" gate="G$1" x="17.78" y="99.06"/>
 <instance part="P+4" gate="G$1" x="309.88" y="58.42"/>
 <instance part="R39" gate="G$1" x="22.86" y="81.28" rot="R90"/>
+<instance part="C2" gate="G$1" x="88.9" y="170.18"/>
 </instances>
 <busses>
 </busses>
@@ -19653,6 +19655,8 @@ if using SPI</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-48.26" x2="71.12" y2="-48.26" width="0.1524" layer="91"/>
@@ -20343,6 +20347,8 @@ if using SPI</text>
 <pinref part="C39" gate="G$1" pin="1"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <label x="83.82" y="175.26" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="175.26" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="172.72" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
