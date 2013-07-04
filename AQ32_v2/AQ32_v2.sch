@@ -19238,8 +19238,11 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VDDA"/>
 <part name="R39" library="SparkFun" deviceset="RESISTOR" device="0402" value="0R"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0402" value="0.1uF"/>
+<<<<<<< HEAD
 <part name="R40" library="resistor" deviceset="R-US_" device="R0402" value="0R"/>
 <part name="SUPPLY6" library="supply2" deviceset="V+" device="" value="VDD"/>
+=======
+>>>>>>> 3c53282325841f06972b5215ad253277c6de477c
 </parts>
 <sheets>
 <sheet>
@@ -19516,8 +19519,11 @@ if using SPI</text>
 <instance part="P+4" gate="G$1" x="309.88" y="58.42"/>
 <instance part="R39" gate="G$1" x="22.86" y="81.28" rot="R90"/>
 <instance part="C2" gate="G$1" x="88.9" y="170.18"/>
+<<<<<<< HEAD
 <instance part="R40" gate="G$1" x="289.56" y="119.38" rot="R90"/>
 <instance part="SUPPLY6" gate="1" x="289.56" y="129.54"/>
+=======
+>>>>>>> 3c53282325841f06972b5215ad253277c6de477c
 </instances>
 <busses>
 </busses>
