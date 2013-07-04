@@ -19169,9 +19169,9 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="R61" library="rcl" deviceset="R-US_" device="R0402" value="1K5"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R60" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="C42" library="rcl" deviceset="C-US" device="C0805" value="220uF"/>
+<part name="C42" library="rcl" deviceset="C-US" device="C0805" value="47uF"/>
 <part name="C43" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C44" library="rcl" deviceset="C-US" device="C1206" value="47uF"/>
+<part name="C44" library="rcl" deviceset="C-US" device="C1206" value="220uF"/>
 <part name="U10" library="DSP-TI" deviceset="MS5611" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="C45" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
@@ -19237,6 +19237,9 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP1"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VDDA"/>
 <part name="R39" library="SparkFun" deviceset="RESISTOR" device="0402" value="0R"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0402" value="0.1uF"/>
+<part name="R40" library="resistor" deviceset="R-US_" device="R0402" value="0R"/>
+<part name="SUPPLY6" library="supply2" deviceset="V+" device="" value="VDD"/>
 </parts>
 <sheets>
 <sheet>
@@ -19512,6 +19515,9 @@ if using SPI</text>
 <instance part="JP1" gate="G$1" x="17.78" y="99.06"/>
 <instance part="P+4" gate="G$1" x="309.88" y="58.42"/>
 <instance part="R39" gate="G$1" x="22.86" y="81.28" rot="R90"/>
+<instance part="C2" gate="G$1" x="88.9" y="170.18"/>
+<instance part="R40" gate="G$1" x="289.56" y="119.38" rot="R90"/>
+<instance part="SUPPLY6" gate="1" x="289.56" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -19653,21 +19659,19 @@ if using SPI</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-48.26" x2="71.12" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-48.26" x2="71.12" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-50.8" x2="71.12" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-50.8" x2="71.12" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-48.26" x2="71.12" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-53.34" x2="71.12" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-53.34" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-55.88" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-55.88" x2="71.12" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="71.12" y="-50.8"/>
 <junction x="71.12" y="-53.34"/>
 <junction x="71.12" y="-55.88"/>
 <pinref part="U7" gate="G$1" pin="SHIELD@1"/>
-<pinref part="U7" gate="G$1" pin="SHIELD@2"/>
 <pinref part="U7" gate="G$1" pin="SHIELD@3"/>
 <pinref part="U7" gate="G$1" pin="SHIELD@4"/>
 <pinref part="GND32" gate="1" pin="GND"/>
@@ -20343,6 +20347,8 @@ if using SPI</text>
 <pinref part="C39" gate="G$1" pin="1"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <label x="83.82" y="175.26" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="175.26" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="172.72" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
@@ -20435,6 +20441,11 @@ if using SPI</text>
 <wire x1="429.26" y1="73.66" x2="436.88" y2="73.66" width="0.1524" layer="91"/>
 <label x="429.26" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="SUPPLY6" gate="1" pin="V+"/>
+<wire x1="289.56" y1="124.46" x2="289.56" y2="127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="JTDO/TIM2_CH2" class="0">
 <segment>
@@ -20443,9 +20454,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTB_L" pin="PB3"/>
 </segment>
 <segment>
-<wire x1="416.56" y1="129.54" x2="429.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="416.56" y="129.54" size="1.778" layer="95"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="457.2" y1="129.54" x2="467.36" y2="129.54" width="0.1524" layer="91"/>
+<label x="457.2" y="129.54" size="1.778" layer="95"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART1_TX" class="0">
@@ -20654,6 +20665,11 @@ if using SPI</text>
 <label x="198.12" y="119.38" size="1.778" layer="95"/>
 <pinref part="U2" gate="PORTC_L" pin="PC1"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="SHIELD@2"/>
+<wire x1="76.2" y1="-50.8" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
+<label x="50.8" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADC123_IN12" class="0">
 <segment>
@@ -20835,9 +20851,9 @@ if using SPI</text>
 <pinref part="R60" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="416.56" y1="121.92" x2="429.26" y2="121.92" width="0.1524" layer="91"/>
-<label x="416.56" y="121.92" size="1.778" layer="95"/>
-<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="457.2" y1="121.92" x2="467.36" y2="121.92" width="0.1524" layer="91"/>
+<label x="457.2" y="121.92" size="1.778" layer="95"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TIM3_CH1" class="0">
@@ -20847,9 +20863,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTB_L" pin="PB4"/>
 </segment>
 <segment>
-<wire x1="457.2" y1="129.54" x2="467.36" y2="129.54" width="0.1524" layer="91"/>
-<label x="457.2" y="129.54" size="1.778" layer="95"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="416.56" y1="121.92" x2="429.26" y2="121.92" width="0.1524" layer="91"/>
+<label x="416.56" y="121.92" size="1.778" layer="95"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART5_RX" class="0">
@@ -20901,9 +20917,9 @@ if using SPI</text>
 <pinref part="U2" gate="PORTA_H" pin="PA15"/>
 </segment>
 <segment>
-<wire x1="457.2" y1="121.92" x2="467.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="457.2" y="121.92" size="1.778" layer="95"/>
-<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="416.56" y1="129.54" x2="429.26" y2="129.54" width="0.1524" layer="91"/>
+<label x="416.56" y="129.54" size="1.778" layer="95"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="JTCK" class="0">
@@ -21586,74 +21602,74 @@ if using SPI</text>
 </net>
 <net name="RCV1" class="0">
 <segment>
-<wire x1="396.24" y1="180.34" x2="406.4" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<label x="401.32" y="180.34" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1-2" gate="G$1" pin="5"/>
 <wire x1="429.26" y1="68.58" x2="436.88" y2="68.58" width="0.1524" layer="91"/>
 <label x="429.26" y="68.58" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="RCV2" class="0">
-<segment>
-<wire x1="436.88" y1="180.34" x2="447.04" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<label x="441.96" y="180.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1-2" gate="G$1" pin="4"/>
-<wire x1="429.26" y1="66.04" x2="436.88" y2="66.04" width="0.1524" layer="91"/>
-<label x="429.26" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RCV3" class="0">
-<segment>
-<wire x1="396.24" y1="172.72" x2="406.4" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<label x="401.32" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1-2" gate="G$1" pin="3"/>
-<wire x1="429.26" y1="63.5" x2="436.88" y2="63.5" width="0.1524" layer="91"/>
-<label x="429.26" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RCV5" class="0">
 <segment>
 <wire x1="396.24" y1="165.1" x2="406.4" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <label x="401.32" y="165.1" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP1-1" gate="G$1" pin="5"/>
-<wire x1="406.4" y1="68.58" x2="414.02" y2="68.58" width="0.1524" layer="91"/>
-<label x="406.4" y="68.58" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="RCV6" class="0">
+<net name="RCV2" class="0">
+<segment>
+<pinref part="JP1-2" gate="G$1" pin="4"/>
+<wire x1="429.26" y1="66.04" x2="436.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="429.26" y="66.04" size="1.778" layer="95"/>
+</segment>
 <segment>
 <wire x1="436.88" y1="165.1" x2="447.04" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <label x="441.96" y="165.1" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="RCV3" class="0">
+<segment>
+<pinref part="JP1-2" gate="G$1" pin="3"/>
+<wire x1="429.26" y1="63.5" x2="436.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="429.26" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="406.4" y1="157.48" x2="396.24" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<label x="401.32" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RCV5" class="0">
+<segment>
+<pinref part="JP1-1" gate="G$1" pin="5"/>
+<wire x1="406.4" y1="68.58" x2="414.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="406.4" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="396.24" y1="180.34" x2="406.4" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<label x="401.32" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RCV6" class="0">
 <segment>
 <pinref part="JP1-1" gate="G$1" pin="4"/>
 <wire x1="406.4" y1="66.04" x2="414.02" y2="66.04" width="0.1524" layer="91"/>
 <label x="406.4" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="436.88" y1="180.34" x2="447.04" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<label x="441.96" y="180.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RCV4" class="0">
-<segment>
-<wire x1="447.04" y1="172.72" x2="436.88" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<label x="441.96" y="172.72" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="JP1-2" gate="G$1" pin="2"/>
 <wire x1="429.26" y1="60.96" x2="436.88" y2="60.96" width="0.1524" layer="91"/>
 <label x="429.26" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="447.04" y1="157.48" x2="436.88" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<label x="441.96" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOT1" class="0">
@@ -21730,26 +21746,26 @@ if using SPI</text>
 </net>
 <net name="RCV7" class="0">
 <segment>
-<wire x1="406.4" y1="157.48" x2="396.24" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<label x="401.32" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1-1" gate="G$1" pin="3"/>
 <wire x1="406.4" y1="63.5" x2="414.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="406.4" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="396.24" y1="172.72" x2="406.4" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<label x="401.32" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RCV8" class="0">
-<segment>
-<wire x1="447.04" y1="157.48" x2="436.88" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<label x="441.96" y="157.48" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="JP1-1" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="60.96" x2="414.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="406.4" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="447.04" y1="172.72" x2="436.88" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<label x="441.96" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOT7" class="0">
@@ -21829,6 +21845,14 @@ if using SPI</text>
 <wire x1="22.86" y1="7.62" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="E"/>
 <label x="20.32" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="NC@3"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="109.22" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
