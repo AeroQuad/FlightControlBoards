@@ -19225,7 +19225,6 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="SERIAL" library="con-jst2" deviceset="?M04B-SRSS-TB" device="S"/>
 <part name="GPS" library="con-jst2" deviceset="?M06B-SRSS-TB" device="S"/>
 <part name="OSD" library="con-jst2" deviceset="?M07B-SRSS-TB" device="S"/>
-<part name="L2" library="SparkFun" deviceset="INDUCTOR" device="0805" value="22uH"/>
 <part name="JP4-1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP4"/>
 <part name="JP4-2" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="JP4"/>
 <part name="JP3-1" library="SparkFun-Connectors" deviceset="M09" device=""/>
@@ -19238,11 +19237,8 @@ http://www.jst-mfg.com&lt;p&gt;
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VDDA"/>
 <part name="R39" library="SparkFun" deviceset="RESISTOR" device="0402" value="0R"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0402" value="0.1uF"/>
-<<<<<<< HEAD
 <part name="R40" library="resistor" deviceset="R-US_" device="R0402" value="0R"/>
 <part name="SUPPLY6" library="supply2" deviceset="V+" device="" value="VDD"/>
-=======
->>>>>>> 3c53282325841f06972b5215ad253277c6de477c
 </parts>
 <sheets>
 <sheet>
@@ -19505,7 +19501,6 @@ if using SPI</text>
 <instance part="OSD" gate="-5" x="88.9" y="96.52"/>
 <instance part="OSD" gate="-6" x="88.9" y="93.98"/>
 <instance part="OSD" gate="-7" x="88.9" y="91.44"/>
-<instance part="L2" gate="G$1" x="27.94" y="-33.02" rot="R90"/>
 <instance part="JP4-1" gate="G$1" x="487.68" y="25.4"/>
 <instance part="JP4-2" gate="G$1" x="487.68" y="12.7"/>
 <instance part="JP3-1" gate="G$1" x="447.04" y="68.58"/>
@@ -19519,11 +19514,8 @@ if using SPI</text>
 <instance part="P+4" gate="G$1" x="309.88" y="58.42"/>
 <instance part="R39" gate="G$1" x="22.86" y="81.28" rot="R90"/>
 <instance part="C2" gate="G$1" x="88.9" y="170.18"/>
-<<<<<<< HEAD
 <instance part="R40" gate="G$1" x="289.56" y="119.38" rot="R90"/>
 <instance part="SUPPLY6" gate="1" x="289.56" y="129.54"/>
-=======
->>>>>>> 3c53282325841f06972b5215ad253277c6de477c
 </instances>
 <busses>
 </busses>
@@ -20394,9 +20386,14 @@ if using SPI</text>
 <pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="R53" gate="G$1" pin="1"/>
 <label x="7.62" y="-27.94" size="1.778" layer="95"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-33.02" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="17.78" y="-33.02"/>
+<wire x1="76.2" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-38.1" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VCC"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="38.1" y="-33.02"/>
+<wire x1="17.78" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="261.62" y1="170.18" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
@@ -21423,17 +21420,6 @@ if using SPI</text>
 <pinref part="R45" gate="G$1" pin="2"/>
 <pinref part="U2" gate="BAT_AN" pin="VSSA"/>
 <pinref part="R58" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<wire x1="76.2" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-38.1" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="VCC"/>
-<pinref part="C43" gate="G$1" pin="1"/>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="38.1" y="-33.02"/>
 </segment>
 </net>
 <net name="LEDGND3" class="0">
